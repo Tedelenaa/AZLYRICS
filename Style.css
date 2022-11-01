@@ -32,7 +32,7 @@ nav {
   */
   /* justify-content: center; */
   background-color: #9999cc;
-  justify-content: center;
+  /* justify-content: center; */
   /* text-align: center; */
   height: 51px;
   width: 1349px;
@@ -41,31 +41,31 @@ nav {
   /* width: 100%; */
 }
 
-.A_Z{
+.A_Z {
+  display: flex;
   justify-content: center;
   height: 30px;
   text-align: center;
   margin-left: 104.5px;
   /* margin-right: 104.5px; */
-
 }
 
 .notempty {
   display: flex;
-  /* padding: 10px 3px; */
-  /* padding-left: 40px; */
   padding-inline-start: 60px;
   padding-inline-end: 40px;
-  /* margin-left: 30px; */
   margin-right: 104.5px;
   align-items: center;
-  /* justify-content: space-evenly; */
-  justify-content: space-around;
-  justify-content: center;
+  justify-content: space-between;
   background-color: #9999cc;
   text-align: center;
   height: 50px;
   width: 1140px;
+  /* margin-left: 30px; */
+  /* justify-content: space-evenly; */
+  /* justify-content: center; */
+  /* padding: 10px 3px; */
+  /* padding-left: 40px; */
   /* width: 100%; */
   /* overflow-x: hidden; */
 }
@@ -77,22 +77,23 @@ nav img {
   /* margin-left: 70px; */
   /* padding-right: 104.5px; */
 }
-nav li {
+.A_Z a {
   list-style: none;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   /* margin-inline-start: 50px; */
   /* margin-right: 120px; */
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* padding: 1px; */
+  margin-right: 8px;
 }
-nav li a {
+nav a {
   text-decoration: none;
   color: white;
   /* font-size: 18px; */
   font-size: medium;
   font-weight: 716;
-  height: 100px;
-  width: 100px;
+  /* height: 100px;
+  width: 100px; */
   /* display: contents; */
   /* margin-top: 40px; */
   /* display: flex; */
@@ -101,7 +102,7 @@ nav li a {
   /* margin-top: 10px; */
   /* padding-left: 104.5px; */
   /* font-stretch: extra-condensed; */
-  
+
   padding: 4px;
   font-family: sans-serif;
 }
